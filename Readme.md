@@ -17,7 +17,7 @@ It also provides testing conditions for your code to analyse how your code does 
 1. open your terminal in this directory
 2. install all the required modules using 
 > pip install -r requirements.txt
-3. type pseudo 
+3. type pseudo the current directory 
 > pseudo
 
 ### To RUN your 
