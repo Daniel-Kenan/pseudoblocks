@@ -1,4 +1,6 @@
-open your terminal here and type pseudo
+# Pseudo Blocks
+
+![image info](./blocks.jpeg)
 
 required software is
 python3 installed
