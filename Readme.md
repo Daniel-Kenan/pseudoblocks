@@ -1,6 +1,6 @@
 # Pseudo Blocks
 
-![image info](./blocks.jpeg)
+![image info](./blocks.jpg)
 
 required software is
 python3 installed
