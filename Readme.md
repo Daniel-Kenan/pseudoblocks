@@ -2,7 +2,7 @@
 
 ![image info](./blocks.jpg "Image by xavi-cabrera on unsplash")
 
-<p style="width:80ch;display: block ; margin :0 auto;text-align:center;font-size:18px">This program was designed to help assist students run algorithms written with pseudo code with providing and isolated enviroment.So they can better understand and grasp programming concepts  with ease students will better understand the commandline interface <p>
+<p style="width:80ch;display: block ; margin :0 auto;text-align:center;font-size:18px">This program was designed to help assist students run algorithms written with pseudo code with providing an isolated environment.So they can better understand and grasp programming concepts  with ease.Students will better understand the commandline interface <p>
 
 ---
 [ANNOUNCEMENT] Looking for the latest news,
