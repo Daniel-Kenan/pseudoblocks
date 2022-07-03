@@ -3,7 +3,8 @@
 ![image info](./blocks.jpg)
 
 Pseudo blocks is a program that runs pseudo code language syntax. 
-It also provides testing conditions for your code to analyse hoe your code does in different scenarios.
+It also provides testing conditions for your code to analyse how your code does in different scenarios.
+
 
 ### The required preinstalled software is 
 => python3
