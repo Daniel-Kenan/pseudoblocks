@@ -1,0 +1,18 @@
+start
+ 
+Declarations
+  num i = 1
+
+# while loop
+
+while i != 5 then
+   print('hi')
+   i += 2
+endwhile
+
+output 'hello'
+
+
+
+
+stop

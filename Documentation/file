@@ -1,0 +1,9 @@
+You just called pseudo with no argument
+
+run pseudo with a filename located in the playground folder 
+
+# FOR EXAMPLE RUN
+pseudo example.txt
+
+# FOR HELP RUN
+pseudo --help

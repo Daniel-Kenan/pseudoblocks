@@ -1,0 +1,17 @@
+start
+
+Declarations
+  string name
+  string surname
+
+# This is how you are supposed to define a for loop
+
+for  i = 1 stop = 10 step 1 then
+
+output i,'what is your name?' 
+
+
+endfor
+input name
+
+stop

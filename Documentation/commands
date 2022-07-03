@@ -1,0 +1,17 @@
+# first argument
+
+--help      | shows the shows available commands and how to use them
+
+view-date   | shows the current date
+
+view-time   | shows the current time
+
+view-basic  | hides configuration files
+
+view-dev    | unhides configuration files
+
+# second argument 
+
+--test      | runs pseudo-code file on a testcase
+
+--edit      | opens notepad to edit pseudo code file located in the playground directory

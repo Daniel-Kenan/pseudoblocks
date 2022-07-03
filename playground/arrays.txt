@@ -1,0 +1,10 @@
+start
+
+Declarations 
+  str name = ""
+  str surname = ""
+  int age = 34
+  str names = 'hello','' , '', '' 
+
+
+stop

@@ -1,0 +1,16 @@
+start
+Declarations
+ string name = "kenan"
+ num age
+
+
+input name
+input age
+stop
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+start 
+
+# this is a comment 
+# this is another comment
+
+output 'what is your name'
+
+input name
+
+output 'your name is , name
+
+stop
