@@ -28,6 +28,7 @@ goto terminate
 :basic-view
 attrib +h +s *
 attrib +h +s Documentation
+attrib -h -s openblock.cmd
 echo configuration files hidden for basic use
 goto terminate
 
