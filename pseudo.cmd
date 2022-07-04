@@ -29,6 +29,7 @@ goto terminate
 attrib +h +s *
 attrib +h +s Documentation
 attrib -h -s openblock.cmd
+attrib -h -s setupblock.cmd
 echo configuration files hidden for basic use
 goto terminate
 
