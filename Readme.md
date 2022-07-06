@@ -1,6 +1,6 @@
 <h1 style="text-align:center">  Pseudo Blocks </h1>
 
-![image info](./blocks.jpg "Image by xavi-cabrera on unsplash")
+![image info](./images//blocks.jpg "Image by xavi-cabrera on unsplash")
 
 <p style="width:80ch;display: block ; margin :0 auto;text-align:center;font-size:18px">This program was designed to help assist students run algorithms written with pseudo code with providing an isolated environment.So they can better understand and grasp programming concepts  with ease.Students will better understand the commandline interface <p>
 
@@ -59,7 +59,7 @@ _This software was inspired by University Of Mpumalanga_
 
 GPL version 2 License
 
-![image info](./images.jpeg "Image by xavi-cabrera on unsplash")
+![image info](.images/images.jpeg "Image by xavi-cabrera on unsplash")
 
 
 ## **Questions? Comments?**

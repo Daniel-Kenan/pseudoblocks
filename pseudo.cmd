@@ -28,14 +28,16 @@ goto terminate
 :basic-view
 attrib +h +s *
 attrib +h +s Documentation
-attrib -h -s openblock.cmd
-attrib -h -s setupblock.cmd
+attrib +h +s container
+attrib -h -s setup.cmd
+attrib -h -s RUN.exe
 echo configuration files hidden for basic use
 goto terminate
 
 :dev-view
 attrib -h -s *
 attrib -h -s Documentation
+attrib -h -s container
 echo Happy debugging ;-)
 goto terminate
 
