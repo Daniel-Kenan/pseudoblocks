@@ -59,7 +59,7 @@ _This software was inspired by University Of Mpumalanga_
 
 GPL version 2 License
 
-![image info](.images/images.jpeg "Image by xavi-cabrera on unsplash")
+![image info](./images/images.jpeg "Image by xavi-cabrera on unsplash")
 
 
 ## **Questions? Comments?**

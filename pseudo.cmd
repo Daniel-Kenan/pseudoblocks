@@ -56,6 +56,6 @@ CD ..
 goto terminate
 
 :version
-echo version 1.0.0
+echo version 1.0.1
 :terminate
 echo.

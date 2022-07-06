@@ -5,6 +5,7 @@ python --version >nul 2>&1 && ( pip install -r requirements.txt && goto normal_ 
 
 :normal_
 cls
+echo type pseudo --help
 goto exit_
 
 :terminate_
