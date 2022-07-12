@@ -1,4 +1,8 @@
 __pycache__
 autofill.py
 container/pseudo
-RUN.exe
+PseudoApp.exe
+cache
+clink_history
+clink_history_16420
+clink_history_16420.removals

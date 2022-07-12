@@ -1,16 +1,15 @@
 @echo OFF
-echo installing requirements for python
-timeout /t 2 /nobreak > NUL
-python --version >nul 2>&1 && ( pip install -r requirements.txt && goto normal_ ) || ( goto terminate_)
 
-:normal_
-cls
-echo type pseudo --help
-goto exit_
+set PSEUDOHOME=%CD%
+set PYHOME=python-3.9.10-embed-amd64/
+set python="python-3.9.10-embed-amd64\python.exe"
+set python3="python-3.9.10-embed-amd64\python.exe"
 
-:terminate_
-echo 'python3 is not installed'
-echo 'close the program and install python first'
+%python3% "intro.py"
 
-:exit_
+
+CD clink
+clink inject --quiet
+
+
 echo.

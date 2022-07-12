@@ -58,7 +58,7 @@ def Main():
               
               EXPECTED_OUTPUT = file_contents[EXPECTED_OUTPUT_INDEX+1:]
               
-              PROGRAM_OUTPUT = str(subprocess.getoutput(f'python compile.py {pseudocode_file} \"{global_payload}\"').strip())
+              PROGRAM_OUTPUT = str(subprocess.getoutput(f'%python3% compile.py {pseudocode_file} \"{global_payload}\"').strip())
 
               for line in file_contents[:EXPECTED_OUTPUT_INDEX] :
                 print(line)

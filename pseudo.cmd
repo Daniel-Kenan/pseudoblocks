@@ -1,7 +1,9 @@
 @echo OFF
 echo.
+@REM set PYHOME=python-3.9.10-embed-amd64/
 if "%1" == "--help" ( goto commands-help goto terminate)
 if "%1" == "view-date" ( goto date-view goto terminate )
+if "%1" == "reload" ( goto reload goto terminate )
 if "%1" == "view-time" ( goto time-view goto terminate) 
 if "%1" == "--version" ( goto version goto terminate) 
 if "%1" == "view-basic" (goto basic-view goto terminate) 
@@ -18,11 +20,11 @@ CD ".."
 goto terminate
 
 :normal
-python "compile.py" "%1" 
+%python3% "compile.py" "%1"
 goto terminate
 
 :testcase
-python "algo.py" "%3" "%1"
+%python3% "algo.py" "%3" "%1"
 goto terminate
 
 :basic-view
@@ -56,6 +58,13 @@ CD ..
 goto terminate
 
 :version
-echo version 1.0.1
+echo version 1.0.3
+
+:reload
+CHDIR %PSEUDOHOME% 
+echo loaded
+PseudoApp
+goto terminate
+
 :terminate
 echo.
