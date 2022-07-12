@@ -1,4 +1,7 @@
 import sys
+import os
+if not os.path.isdir('cache'):
+    os.makedirs('cache')
 
 class Logger(object):
     def __init__(self):
