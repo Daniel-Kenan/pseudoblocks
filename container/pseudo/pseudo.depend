@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1657135270 source:c:\users\daniel\documents\unstable\pseudo\resources.rc
+
+1657135604 source:c:\users\daniel\documents\unstable\pseudo\main.c
+	<stdio.h>
+	<string.h>
+
+1657135270 source:c:\users\daniel\desktop\development\pseudo\container\pseudo\resources.rc
+
+1657323861 source:c:\users\daniel\desktop\development\pseudo\container\pseudo\main.c
+	<stdio.h>
+	<string.h>
+	<windows.h>
+
