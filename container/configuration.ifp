@@ -20,8 +20,8 @@ SFA = 0
 DFA = 0
 Comp = 1
 [Graphics]
-Wizard image = C:\Users\Daniel\Desktop\Development\pseudo\images\Tnormal.png
-Header image = C:\Users\Daniel\Desktop\Development\pseudo\images\favicon.png
+Wizard image = C:\Users\Daniel\Desktop\Development\pseudo-blocks\images\Wnormal.jpg
+Header image = C:\Users\Daniel\Desktop\Development\pseudo-blocks\images\favicon.png
 Show Label = 1
 VisualStylesEnabled = 1
 [Files]
@@ -39,7 +39,7 @@ Licence dialog = 1
 [Finish]
 Sart program = 1
 Reboot computer = 0
-Program = <InstallPath>\PseudoApp.exe
+Program = <InstallPath>\pseudoapp.exe
 ProgramArguments = 
 [Shortcuts]
 Allowtc = 0
@@ -49,13 +49,13 @@ Allows = 0
 Number = 1000
 Mask = #####-#####-#####-#####
 [SplashScreen]
-Image = C:\Users\Daniel\Desktop\Development\pseudo\images\Tnormal.png
+Image = C:\Users\Daniel\Desktop\Development\pseudo-blocks\images\Tnormal.png
 Sound = 
-Time = 2
+Time = 1
 PlaySound = 0
 Allow = 0
 [Build]
-File = C:\Users\Daniel\Desktop\Development\pseudo\container\PseudoBlocksSetUp.exe
+File = C:\Users\Daniel\Desktop\Development\pseudo-blocks\container\PseudoBlocksSetUp.exe
 SetupIconPath = ..\icons\ancient.ico
 UninstallIconPath = ..\icons\ancient.ico
 CompressionMethod = 0
@@ -79,78 +79,75 @@ Execdlls = 0
 4
 9
 [Files/Dirs]
-C:\Users\Daniel\Desktop\Development\pseudo\clink\
-N/A
-[Folder]
-C:\Users\Daniel\Desktop\Development\pseudo\Documentation\
-N/A
-[Folder]
-C:\Users\Daniel\Desktop\Development\pseudo\images\
-N/A
-[Folder]
-C:\Users\Daniel\Desktop\Development\pseudo\playground\
-N/A
-[Folder]
-C:\Users\Daniel\Desktop\Development\pseudo\python-3.9.10-embed-amd64\
-N/A
-[Folder]
-C:\Users\Daniel\Desktop\Development\pseudo\Test Cases\
-N/A
-[Folder]
-C:\Users\Daniel\Desktop\Development\pseudo\algo.py
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\algo.py
 2.9 KB
 py
-C:\Users\Daniel\Desktop\Development\pseudo\compile.py
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\compile.py
 4.3 KB
 py
-C:\Users\Daniel\Desktop\Development\pseudo\console.py
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\console.py
 186 Byte
 py
-C:\Users\Daniel\Desktop\Development\pseudo\CONTRIBUTIONS.md
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\CONTRIBUTIONS.md
 48 Byte
 md
-C:\Users\Daniel\Desktop\Development\pseudo\erronoues.py
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\erronoues.py
 584 Byte
 py
-C:\Users\Daniel\Desktop\Development\pseudo\functions.py
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\functions.py
 1.5 KB
 py
-C:\Users\Daniel\Desktop\Development\pseudo\intro.py
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\intro.py
 2.6 KB
 py
-C:\Users\Daniel\Desktop\Development\pseudo\LICENSE
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\LICENSE
 18 KB
 
-C:\Users\Daniel\Desktop\Development\pseudo\Logger.py
-322 Byte
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\Logger.py
+391 Byte
 py
-C:\Users\Daniel\Desktop\Development\pseudo\LogT.py
-326 Byte
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\LogT.py
+397 Byte
 py
-C:\Users\Daniel\Desktop\Development\pseudo\modules.py
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\modules.py
 516 Byte
 py
-C:\Users\Daniel\Desktop\Development\pseudo\pseudo.cmd
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\pseudo.cmd
 1.5 KB
 cmd
-C:\Users\Daniel\Desktop\Development\pseudo\PseudoApp.exe
-88.7 KB
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\pseudoapp.exe
+69.4 KB
 exe
-C:\Users\Daniel\Desktop\Development\pseudo\Readme.md
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\Readme.md
 1.7 KB
 md
-C:\Users\Daniel\Desktop\Development\pseudo\requirements.txt
-32 Byte
-txt
-C:\Users\Daniel\Desktop\Development\pseudo\setup.cmd
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\setup.cmd
 245 Byte
 cmd
-C:\Users\Daniel\Desktop\Development\pseudo\Syntax.py
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\Syntax.py
 4.6 KB
 py
-C:\Users\Daniel\Desktop\Development\pseudo\tokens.py
-1.4 KB
-py
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\clink\
+N/A
+[Folder]
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\Documentation\
+N/A
+[Folder]
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\cache\
+N/A
+[Folder]
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\images\
+N/A
+[Folder]
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\playground\
+N/A
+[Folder]
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\python-3.9.10-embed-amd64\
+N/A
+[Folder]
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\Test Cases\
+N/A
+[Folder]
 [Licence_Begin]
 19896
 {\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
@@ -498,6 +495,12 @@ Public License instead of this License.\par
 [Registry]
 [Variables]
 [SCs]
+Desktop
+pseudo
+<InstallPath>\
+
+
+0
 [IFP_End]
 [Serials]
 [Serials_End]

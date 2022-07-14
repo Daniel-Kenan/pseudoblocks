@@ -1,6 +1,8 @@
 __pycache__
 autofill.py
 container/pseudo
+container/bin
+container/obj
 PseudoApp.exe
 cache
 clink_history
