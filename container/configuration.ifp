@@ -3,7 +3,7 @@
 ProjectFileVersion = 1.1
 [General]
 Program name = pseudo
-Program version = v1.0.1
+Program version = v1.0.3
 Windows 2000 = 0
 Windows XP = 1
 Windows Server 2003 = 1
@@ -148,6 +148,9 @@ N/A
 C:\Users\Daniel\Desktop\Development\pseudo-blocks\Test Cases\
 N/A
 [Folder]
+C:\Users\Daniel\Desktop\Development\pseudo-blocks\tokens.py
+1.4 KB
+py
 [Licence_Begin]
 19896
 {\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}

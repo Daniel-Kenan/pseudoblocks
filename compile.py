@@ -69,9 +69,8 @@ variable_name : type
 
 class Compile:
     
-    def __init__(self,filename,mode='r') -> None:
-        self.filename = filename
-        self.filepath = f'./playground/{self.filename}'
+    def __init__(self,filepath,mode='r') -> None:
+        self.filepath = filepath
         self.mode = mode
         with open(self.filepath,self.mode) as algorithm:
             self.contents = algorithm.readlines()
@@ -111,7 +110,7 @@ def while_loop(condition:str,commands:list):
 
 if __name__ == "__main__":
 
-    compilation = Compile(filename = arguments[1])
+    compilation = Compile(filepath = arguments[1])
     compilation.main()
     syntax = Syntax(compilation.contents)
     # print(syntax.contents)

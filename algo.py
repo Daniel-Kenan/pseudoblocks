@@ -6,8 +6,7 @@ from console import *
 import sys
 from LogT import *
 
-ENVIROMENT = './playground/'
-case_dir = './Test Cases/'
+case_dir = sys.path[-1] + '\\Test Cases\\'
 case_filename = sys.argv[1]
 path = case_dir + case_filename
 pseudocode_file = sys.argv[2]
@@ -15,7 +14,7 @@ console(f'\nRUNNING TEST CASE: {case_filename}', 'CYAN')
 passed_case = 0
 global_payload = []
 
-with open(path + '/brief.txt') as brief:
+with open(path + '\\brief.txt') as brief:
     print()
     print(brief.readline())
 
@@ -55,10 +54,8 @@ def Main():
                 elif 'string' in load: 
                   global_payload.append( load.removeprefix('string').strip())
               
-              
               EXPECTED_OUTPUT = file_contents[EXPECTED_OUTPUT_INDEX+1:]
-              
-              PROGRAM_OUTPUT = str(subprocess.getoutput(f'%python3% compile.py {pseudocode_file} \"{global_payload}\"').strip())
+              PROGRAM_OUTPUT = str(subprocess.getoutput(f'%python3% {sys.path[3]}\\\\compile.py {pseudocode_file} \"{global_payload}\"').strip())
 
               for line in file_contents[:EXPECTED_OUTPUT_INDEX] :
                 print(line)
@@ -89,6 +86,3 @@ if __name__  == "__main__" :
         Main()
 
       print('From', units_length,'scenario(s), you solved' , passed_case)
-
-
-
