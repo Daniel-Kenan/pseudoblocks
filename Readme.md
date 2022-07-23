@@ -22,35 +22,7 @@ follow @Daniel-Kenan
 
 
 ## Usage
-Make sure you have python3 installed
-you can get it on [python.org](https://www.python.org/downloads/)
-
-1. Clone this repository 
-```
-  git clone https://github.com/Daniel-Kenan/pseudo-blocks.git
-```
-
-2. decompress the zip file on the current directory
-
-3. open the decompressed folder
-
-4. open your terminal in the current folder and type 
-```
-pip install -r requirements.txt
-```
-5. type pseudo 
-```
-pseudo 
-```
-6. (optional) see the version
-```
-pseudo --version
-```
-7. get more commands
-```
-pseudo --help
-```
-
+- 📫 all Documentation Wrritten on :earth_africa: [daniel-kenan.github.io/pseudoblocks](https://daniel-kenan.github.io/pseudoblocks/) 
 
 
 #### _All contributions are welcome. know how to solve a bug?. Send in a pull request_ 
