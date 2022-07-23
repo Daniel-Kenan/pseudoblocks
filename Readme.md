@@ -1,5 +1,7 @@
 <h1 style="text-align:center">  Pseudo Blocks </h1>
 
+![image info](https://img.shields.io/github/v/release/daniel-kenan/pseudoblocks) ![image info](https://img.shields.io/github/license/daniel-kenan/pseudoblocks)
+
 ![image info](./images//favicon.png )
 
 <p style="width:80ch;display: block ; margin :0 auto;text-align:center;font-size:18px">This program was designed to help assist students run algorithms written with pseudo code with providing an isolated environment.So they can better understand and grasp programming concepts  with ease.Students will better understand the commandline interface <p>
