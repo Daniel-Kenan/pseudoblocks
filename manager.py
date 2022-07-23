@@ -16,23 +16,28 @@ class PackageManager:
         args = list(map(lambda x : x.lower().strip(),self.args))
         if not len(args): print('pseu is a testcase manager')
         elif args[0] == "update": self.update()
-        elif args[0] == "testcases" : self.listlocalCases()
+        elif args[0] == "tests" : self.listlocalCases()
         elif args[0] == "download": self.download()
         elif args[0] == "delete" : pass
      
      def listlocalCases(self):
+        print()
         for i in self.packages:
-            print(i)
+            print("",i)
 
      def download(self):
+        self.update()
         name = sys.argv[1:][1]
+        if name == "-recent": pass
+
         with open(sys.path[3]+'\\library.json','r') as library:
              data = json.load(library)
              url_ = data[f'{name}'] 
              url_ = requests.get(url_)
              files = url_.json()
              package = name
-             os.makedirs(sys.path[3]+"\\Test Cases\\"+package)
+             if name == "-recent" :
+                os.makedirs(sys.path[3]+"\\Test Cases\\"+package)
              for file in files :
                 name = file['name']
                 urldld = file['download_url']
