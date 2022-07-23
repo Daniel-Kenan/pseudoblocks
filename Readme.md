@@ -22,13 +22,12 @@ follow @Daniel-Kenan
 
 
 ## Usage
-- 📫 all Documentation Wrritten on :earth_africa: [daniel-kenan.github.io/pseudoblocks](https://daniel-kenan.github.io/pseudoblocks/) 
+- 📫 all Documentation Written on :earth_africa: [daniel-kenan.github.io/pseudoblocks](https://daniel-kenan.github.io/pseudoblocks/) 
 
+## Contributions
+- All contributions are welcome. know how to solve a bug?. Send in a pull request -  
 
-#### _All contributions are welcome. know how to solve a bug?. Send in a pull request_ 
-
-_This software was inspired by University Of Mpumalanga_
-
+This software was inspired by University Of Mpumalanga
 GPL version 2 License
 
 ![image info](./images/images.jpeg "Image by xavi-cabrera on unsplash")
