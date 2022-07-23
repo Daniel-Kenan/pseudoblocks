@@ -40,8 +40,7 @@ if /i "%processor_architecture%"=="x86" (
         "%~dp0\clink_x64.exe" %*
     )
 )
-CD ..
-
+CD %workingDIR%
 :end
 set clink_profile_arg=
 set clink_quiet_arg=

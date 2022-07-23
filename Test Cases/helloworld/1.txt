@@ -1,3 +1,0 @@
-
-=> THE EXPECTED SCREEN_OUTPUT SHOULD BE:
-Hello, World

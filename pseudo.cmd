@@ -2,7 +2,10 @@
 echo.
 @REM set PYHOME=python-3.9.10-embed-amd64/
 
+if NOT defined %PSEUDOENVIROMENT% ( set python3="%~sp0\python-3.9.10-embed-amd64\python.exe" && set "PSEUDOENVIROMENT=y") 
+
 if "%1" == "--help" ( goto commands-help goto terminate)
+if "%1" == "highlight" ( goto highlight goto terminate)
 if "%1" == "view-date" ( goto date-view goto terminate )
 if "%1" == "reload" ( goto reload goto terminate )
 if "%1" == "view-time" ( goto time-view goto terminate) 
@@ -11,10 +14,18 @@ if "%2" == "--test"  goto testcase
 if "%2" == "--edit"  ( notepad "%1" goto terminate) 
 if "%1" == "" ( goto help ) else ( goto normal )
 
+
+
 :: this function goes to the documentation dir and returns to the previous dir after printing from  a file 
 
 :help
 TYPE "%~sp0\Documentation\file" 
+goto terminate
+
+:highlight
+set workingDIR=%CD%
+CD "%~sp0\\clink"
+clink inject --quiet
 goto terminate
 
 :normal
