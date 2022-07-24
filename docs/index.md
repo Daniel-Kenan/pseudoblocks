@@ -2,7 +2,7 @@
 
 ![image info](https://img.shields.io/github/v/release/daniel-kenan/pseudoblocks) ![image info](https://img.shields.io/github/license/daniel-kenan/pseudoblocks)
 
-![image info](../images/favicon.png) 
+![image info](favicon.png) 
 
 <button name="button" style="height:50px;width:120px; font-size:large;border-radius:50px;background:transparent;color:orange; border:1px solid orange" onclick="https://github.com/Daniel-Kenan/pseudoblocks/releases/download/v1.0.4/PseudoBlocksSetUp.exe:">Download</button>
 
@@ -11,9 +11,9 @@ This program was designed to help assist students run algorithms written with ps
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![image info](hello2.png) 
+
 
 ```js
 Start
