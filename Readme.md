@@ -14,7 +14,7 @@ follow @Daniel-Kenan
 
 ---
 
-## Features
+## Key Features
 
 - Organises the files in a simple file structure
 - Toggle the view of configuration files 
