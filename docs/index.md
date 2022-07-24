@@ -12,7 +12,7 @@ This program was designed to help assist students run algorithms written with ps
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 
-![image info](hello2.png) 
+![image info](Age program.png) 
 
 
 ```js
