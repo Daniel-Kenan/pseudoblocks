@@ -23,7 +23,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ![image info](./Age.png) 
 
 
-```bash
+```
 Microsoft Windows [Version 10.0.19044.1826]
 (c) Microsoft Corporation. All rights reserved.
 
@@ -62,7 +62,7 @@ Hello, World
 
 ```
 
-```python
+```powershell
 Microsoft Windows [Version 10.0.19044.1826]
 (c) Microsoft Corporation. All rights reserved.
 
