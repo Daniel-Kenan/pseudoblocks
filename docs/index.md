@@ -50,7 +50,8 @@ pseudo --help
 ```
 
 
-```js
+
+```cmd
 Microsoft Windows [Version 10.0.19044.1826]
 (c) Microsoft Corporation. All rights reserved.
 
@@ -61,7 +62,7 @@ Hello, World
 
 ```
 
-```js
+```cmd
 Microsoft Windows [Version 10.0.19044.1826]
 (c) Microsoft Corporation. All rights reserved.
 
@@ -90,6 +91,8 @@ From 1 scenario(s), you solved 1
 
 
 ```
+
+
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
