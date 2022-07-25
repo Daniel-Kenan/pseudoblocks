@@ -8,7 +8,7 @@
 
 <a
 style="height:50px;width:120px; font-size:large;border-radius:50px;background:transparent;color:orange; padding:10px;border:1px solid orange;"
-href="https://github.com/Daniel-Kenan/pseudoblocks/releases/download/v1.0.4/PseudoBlocksSetUp.exe">Download</a>
+href="https://github.com/Daniel\Desktop\playground-Kenan/pseudoblocks/releases/download/v1.0.4/PseudoBlocksSetUp.exe">Download</a>
 
 
 pseudo code is case insentive but still requires user to be case sensitive on variables.
@@ -23,19 +23,14 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ![image info](./Age.png) 
 
 
-```
-Microsoft Windows [Version 10.0.19044.1826]
-(c) Microsoft Corporation. All rights reserved.
 
-C:\Users\Daniel> pseudo
-```
 
 
 ```powershell
 Microsoft Windows [Version 10.0.19044.1826]
 (c) Microsoft Corporation. All rights reserved.
 
-C:\Users\Daniel> pseudo
+C:\Users\Daniel\Desktop\playground> pseudo
 
 You just called pseudo with no argument
 
@@ -48,14 +43,14 @@ pseudo example.txt
 pseudo --help
 
 ```
+```pseudo --help``` for more commands
 
 
-
-```js
+```powershell
 Microsoft Windows [Version 10.0.19044.1826]
 (c) Microsoft Corporation. All rights reserved.
 
-C:\Users\Daniel> pseudo main.txt 
+C:\Users\Daniel\Desktop\playground> pseudo main.txt 
 
 Hello, World
 
@@ -66,7 +61,19 @@ Hello, World
 Microsoft Windows [Version 10.0.19044.1826]
 (c) Microsoft Corporation. All rights reserved.
 
-C:\Users\Daniel> pseudo main.txt --test helloworld
+C:\Users\Daniel\Desktop\playground> pseudo main.txt --edit
+
+Hello, World
+
+
+```
+
+
+```powershell
+Microsoft Windows [Version 10.0.19044.1826]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Daniel\Desktop\playground> pseudo main.txt --test helloworld
 
 RUNNING TEST CASE: helloworld
 A simple hello world program :-)
@@ -92,13 +99,42 @@ From 1 scenario(s), you solved 1
 
 ```
 
+```powershell
+C:\Users\Daniel\Desktop\playground> pseu local
 
+ Area
+ helloworld
+ Square
+
+C:\Users\Daniel\Desktop\playgrounds>
+
+```
+
+```powershell
+C:\Users\Daniel\Desktop\playground> pseu global
+
+ Area
+ helloworld
+ Square
+ --more--
+
+C:\Users\Daniel\Desktop\playground>
+
+```
+
+```powershell
+C:\Users\Daniel\Desktop\playground> pseu download helloworld
+
+Downloaded helloworld testcase
+
+C:\Users\Daniel\Desktop\playground\Desktop>
+```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Daniel-Kenan/pseudo-blocks/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Daniel\Desktop\playground-Kenan/pseudo-blocks/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
