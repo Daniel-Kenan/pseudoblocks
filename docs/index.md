@@ -31,7 +31,7 @@ C:\Users\Daniel> pseudo
 ```
 
 
-```bash
+```cmd
 Microsoft Windows [Version 10.0.19044.1826]
 (c) Microsoft Corporation. All rights reserved.
 
