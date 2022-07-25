@@ -20,7 +20,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ![image info](./hello.png) 
 
-![image info](./Age.png) 
+
 
 
 
@@ -43,6 +43,8 @@ pseudo example.txt
 pseudo --help
 
 ```
+![cmd.png](cmd.png)
+
 ```pseudo --help``` for more commands
 
 
@@ -65,6 +67,14 @@ C:\Users\Daniel\Desktop\playground> pseudo main.txt --edit
 
 Hello, World
 
+
+```
+
+```powershell
+Microsoft Windows [Version 10.0.19044.1826]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Daniel\Desktop\playground> pseudo highlight
 
 ```
 
