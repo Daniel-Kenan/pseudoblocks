@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.6](https://github.com/Daniel-Kenan/pseudoblocks/compare/v1.0.5...v1.0.6) (2022-11-22)
+
+
+### Bug Fixes
+
+* pseu manager, path settings ([0af0452](https://github.com/Daniel-Kenan/pseudoblocks/commit/0af045202c6f21ffd4899ead84fe798a05652fc5))
+* pseu manager, path settings ([45dd18f](https://github.com/Daniel-Kenan/pseudoblocks/commit/45dd18f849fc5c090540f3fdf6d5726b97fb4be5))
+
 ## [1.0.5](https://github.com/Daniel-Kenan/pseudoblocks/compare/v1.0.4...v1.0.5) (2022-11-22)
 
 
