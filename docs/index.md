@@ -9,7 +9,7 @@
 
 <a
 style="height:50px;width:120px; font-size:large;border-radius:50px;background:transparent;color:orange; padding:10px;border:1px solid orange;"
-href="https://github.com/Daniel-Kenan/pseudoblocks/releases/download/v1.01.03/PseudoBlocksSetUp.exe" download>Download</a>
+href="https://github.com/Daniel-Kenan/pseudoblocks/releases/download/v1.01.05/PseudoBlocksSetUp.exe" download>Download</a>
 
 <br>
 
