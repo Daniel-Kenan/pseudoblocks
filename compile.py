@@ -1,15 +1,20 @@
 #! /usr/bin/python3
-from Syntax import Syntax
+
 import sys
+sys.dont_write_bytecode = True
+from Syntax import Syntax
 from erronoues import *
 from tokens import *
 from Logger import *
 from functions import *
+from pathlib import Path
 
+sys.dont_write_bytecode = True
 __testcase__ = False
 arguments = sys.argv
 
-if len(arguments) > 2: 
+if len(arguments) > 2 and ('java' not in arguments and 'cpp' not in arguments): 
+    #  print('testcase is on')
      test_payload = eval(arguments[2])
      payload=iter(test_payload)
      __testcase__ = True
@@ -109,8 +114,10 @@ def while_loop(condition:str,commands:list):
 
 
 if __name__ == "__main__":
-
+    # print(arguments[1])
+    # sys.exit()
     compilation = Compile(filepath = arguments[1])
+   
     compilation.main()
     syntax = Syntax(compilation.contents)
     # print(syntax.contents)
@@ -132,7 +139,10 @@ if __name__ == "__main__":
             else: Declare(line) 
             line = syntax.contents[index_declaration]
     
-    
+    if sys.argv[-1] == "java" or sys.argv[-1] == "cpp":
+        print(syntax.contents)
+        sys.exit()
+
     for line in syntax.contents:
         # print(line)
         exec(line)

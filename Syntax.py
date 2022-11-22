@@ -3,13 +3,17 @@ from erronoues import RegexError
 from tokens import RETURN
 from functions import createfunction
 
+
+
 class Syntax:
     modulirise = []
     eraser = []    
+    
+   
     def __init__(self,arr:list):
         self.contents = arr
         self.commands= []
-       
+    
 
     def for_loop(self):
       for key,val in enumerate(self.contents):
@@ -93,8 +97,7 @@ class Syntax:
             
             del self.contents[key+1:self.contents.index('endwhile')+1]
             # return self.contents
-       
-    
+           
     def functions(self):
        for key,val in enumerate(self.contents):
             OUTPUT = r'^function (\w+)([(].*[)])'
@@ -123,8 +126,9 @@ class Syntax:
                 self.contents[key] = _syntax
 
 
+# print(Syntax.template(programming_language='c'))
 
-# print(Syntax(['while i != 5 then',['print(a)'],'endwhile']).while_loop())
+# print(Syntax(['while i != 5 then',['print(a)'],'endwhile']).translate())
 # Syntax(['if condition then','if condition then','command','endif']).if_else()
 # print(Syntax(['input name']).input())
 

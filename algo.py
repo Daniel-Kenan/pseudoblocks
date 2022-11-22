@@ -1,11 +1,10 @@
 #! /usr/bin/python3
-
+import sys
+sys.dont_write_bytecode = True
 import subprocess
 import os
 from console import *
-import sys
 from LogT import *
-
 case_dir = sys.path[-1] + '\\Test Cases\\'
 case_filename = sys.argv[1]
 path = case_dir + case_filename

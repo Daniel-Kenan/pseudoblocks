@@ -12,9 +12,6 @@ def createfunction(name,commands:list=[],args:str = '()'):
     code = compile(define,'function','exec')
     return code
 
-
-
-
 if __name__ == "__main__":
     a = ['a','b','c']
     for i in a:

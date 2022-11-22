@@ -10,8 +10,9 @@ if "%1" == "view-date" ( goto date-view goto terminate )
 if "%1" == "reload" ( goto reload goto terminate )
 if "%1" == "view-time" ( goto time-view goto terminate) 
 if "%1" == "--version" ( goto version goto terminate) 
+if "%1" == "--translate" ( goto translate goto terminate)
 if "%2" == "--test"  goto testcase 
-if "%2" == "--edit"  ( notepad "%1" goto terminate) 
+if "%2" == "--edit"  ( notepad "%~1" goto terminate) 
 if "%1" == "" ( goto help ) else ( goto normal )
 
 
@@ -23,17 +24,17 @@ TYPE "%~sp0\Documentation\file"
 goto terminate
 
 :highlight
-set workingDIR=%CD%
+set workingDIR="%CD%"
 CD "%~sp0\\clink"
 clink inject --quiet
 goto terminate
 
 :normal
-%python3% "%~sp0\compile.py" "%1"
+%python3% "%~sp0\compile.py" "%~1"
 goto terminate
 
 :testcase
-%python3% "%~sp0\algo.py" "%3" "%1"
+%python3% "%~sp0\algo.py" "%~3" "%~1"
 goto terminate
 
 :time-view
@@ -49,7 +50,12 @@ TYPE "%~sp0\Documentation\commands"
 goto terminate
 
 :version
-echo version 1.0.3
+TYPE "%~sp0\CHANGELOG.md"
+goto terminate
+:translate
+%python3% "%~sp0\compile.py" "%~2" "cpp" 
+goto terminate
+
 
 :reload
 CHDIR %PSEUDOHOME% 

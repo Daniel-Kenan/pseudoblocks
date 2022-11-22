@@ -1,5 +1,12 @@
+
+
 # first argument
 
+
+pseudo <filename> <option> 
+pseu <options>
+
+pseud download <testcase>
 --help      | shows the shows available commands and how to use them
 
 view-date   | shows the current date
