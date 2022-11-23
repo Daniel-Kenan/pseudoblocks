@@ -14,7 +14,7 @@ Windows 8 = 1
 Windows 10 = 1
 Windows Server 2016 = 1
 DoNotCheckOS = 1
-Company name = Daniel Slinda
+Company name = ump
 Website = https://github.com/Daniel-Kenan/pseudo-blocks
 SFA = 0
 DFA = 0
@@ -148,6 +148,24 @@ py
 C:\Users\Daniel Slinda\Documents\Development\pseudo-blocks\translation.py
 1 KB
 py
+C:\Users\Daniel Slinda\Documents\Development\pseudo-blocks\clink\
+N/A
+[Folder]
+C:\Users\Daniel Slinda\Documents\Development\pseudo-blocks\Documentation\
+N/A
+[Folder]
+C:\Users\Daniel Slinda\Documents\Development\pseudo-blocks\images\
+N/A
+[Folder]
+C:\Users\Daniel Slinda\Documents\Development\pseudo-blocks\manager\
+N/A
+[Folder]
+C:\Users\Daniel Slinda\Documents\Development\pseudo-blocks\python-3.9.10-embed-amd64\
+N/A
+[Folder]
+C:\Users\Daniel Slinda\Documents\Development\pseudo-blocks\templates\
+N/A
+[Folder]
 [Licence_Begin]
 19896
 {\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}

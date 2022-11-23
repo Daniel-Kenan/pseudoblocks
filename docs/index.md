@@ -179,7 +179,7 @@ C:\Users\Daniel\Desktop\playground>
 #### >> To translate pseudocode to cpp
 
 ```powershell
-C:\Users\Daniel\Desktop\playground> pseudo translate <filename> cpp
+C:\Users\Daniel\Desktop\playground> pseudo --translate <filename> cpp
 
 
 C:\Users\Daniel\Desktop\playground>

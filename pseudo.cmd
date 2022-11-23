@@ -52,6 +52,7 @@ goto terminate
 :version
 TYPE "%~sp0\CHANGELOG.md"
 goto terminate
+
 :translate
 %python3% "%~sp0\compile.py" "%~2" "cpp" 
 goto terminate

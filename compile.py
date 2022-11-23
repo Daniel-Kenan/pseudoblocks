@@ -8,6 +8,7 @@ from tokens import *
 from Logger import *
 from functions import *
 from pathlib import Path
+import subprocess
 
 sys.dont_write_bytecode = True
 __testcase__ = False
@@ -140,7 +141,12 @@ if __name__ == "__main__":
             line = syntax.contents[index_declaration]
     
     if sys.argv[-1] == "java" or sys.argv[-1] == "cpp":
-        print(syntax.contents)
+        # print(syntax.contents,Declare.declared_variables)
+        arg1 = "**".join(syntax.contents).encode('utf-8').hex()
+        arg2 = str(Declare.declared_variables)
+        arg2 = arg2.encode('utf-8').hex()
+        output=str(subprocess.getoutput(f'%python3% {sys.path[3]}\\\\Transcriber.py \"{arg1}\" {arg2}'))
+        print(output)
         sys.exit()
 
     for line in syntax.contents:
